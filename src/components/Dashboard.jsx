@@ -4,7 +4,7 @@ import { useNavigate, Link } from "react-router-dom"
 import TodoForm from './TodoForm'
 import Todos from './Todos'
 
-function Profile() {
+function Dashboard() {
     const navigate = useNavigate()
     const [userDetails, setUserDetails] = useState()
 
@@ -66,4 +66,4 @@ function Profile() {
     )
 }
 
-export default Profile
+export default Dashboard
